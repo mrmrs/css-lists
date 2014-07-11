@@ -33,7 +33,7 @@ or download the css on github and include in your project.
 .upper-alpha {  list-style-type: upper-alpha; }
 .list {         list-style-type: none; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .disc-ns {         list-style-type: disc; }
   .circle-ns {       list-style-type: circle; }
   .square-ns {       list-style-type: square; }
@@ -49,7 +49,7 @@ or download the css on github and include in your project.
   .list-ns {         list-style-type: none; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .disc-m {         list-style-type: disc; }
   .circle-m {       list-style-type: circle; }
   .square-m {       list-style-type: square; }
@@ -65,7 +65,7 @@ or download the css on github and include in your project.
   .list-m {         list-style-type: none; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .disc-l {         list-style-type: disc; }
   .circle-l {       list-style-type: circle; }
   .square-l {       list-style-type: square; }
