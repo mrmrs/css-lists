@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-lists)
 ## File Size
 
 2.7K lists.css
-2.1K lists.min.css
+2.1K lists.min.css 
+352B minified and gzipped
 
 ## The Code
 ```
