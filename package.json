@@ -1,5 +1,6 @@
 {
   "name": "css-lists",
+  "style": "lists.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-lists",
   "description": "Css module of single purpose classes for lists",
