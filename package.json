@@ -1,7 +1,7 @@
 {
   "name": "css-lists",
   "style": "lists.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-lists",
   "description": "Css module of single purpose classes for lists",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-lists.css > css/css-lists.css && tachyons src/css-lists.css --minify > css/css-lists.min.css && tachyons src/css-lists.css --generate-docs --package=../../package.json > readme.md"
