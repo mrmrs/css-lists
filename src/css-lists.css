@@ -18,19 +18,19 @@
 .list {         list-style-type: none; }
 
 @media screen and (min-width: 48em) {
-  .disc-ns {         list-style-type: disc; }
-  .circle-ns {       list-style-type: circle; }
-  .square-ns {       list-style-type: square; }
-  .decimal-ns {      list-style-type: decimal; }
-  .leading-zero-ns { list-style-type: decimal-leading-zero; }
-  .lower-roman-ns {  list-style-type: lower-roman; }
-  .upper-roman-ns {  list-style-type: upper-roman; }
-  .lower-greek-ns {  list-style-type: lower-greek; }
-  .lower-latin-ns {  list-style-type: lower-latin; }
-  .upper-latin-ns {  list-style-type: upper-latin; }
-  .lower-alpha-ns {  list-style-type: lower-alpha; }
-  .upper-alpha-ns {  list-style-type: upper-alpha; }
-  .list-ns {         list-style-type: none; }
+  .disc-s {         list-style-type: disc; }
+  .circle-s {       list-style-type: circle; }
+  .square-s {       list-style-type: square; }
+  .decimal-s {      list-style-type: decimal; }
+  .leading-zero-s { list-style-type: decimal-leading-zero; }
+  .lower-roman-s {  list-style-type: lower-roman; }
+  .upper-roman-s {  list-style-type: upper-roman; }
+  .lower-greek-s {  list-style-type: lower-greek; }
+  .lower-latin-s {  list-style-type: lower-latin; }
+  .upper-latin-s {  list-style-type: upper-latin; }
+  .lower-alpha-s {  list-style-type: lower-alpha; }
+  .upper-alpha-s {  list-style-type: upper-alpha; }
+  .list-s {         list-style-type: none; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
