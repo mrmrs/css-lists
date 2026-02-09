@@ -17,7 +17,7 @@
 .upper-alpha {  list-style-type: upper-alpha; }
 .list {         list-style-type: none; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .disc-s {         list-style-type: disc; }
   .circle-s {       list-style-type: circle; }
   .square-s {       list-style-type: square; }
@@ -33,7 +33,7 @@
   .list-s {         list-style-type: none; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .disc-m {         list-style-type: disc; }
   .circle-m {       list-style-type: circle; }
   .square-m {       list-style-type: square; }
@@ -49,7 +49,7 @@
   .list-m {         list-style-type: none; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .disc-l {         list-style-type: disc; }
   .circle-l {       list-style-type: circle; }
   .square-l {       list-style-type: square; }
