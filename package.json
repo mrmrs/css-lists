@@ -1,38 +1,44 @@
 {
   "name": "css-lists",
-  "style": "lists.css",
-  "version": "1.1.0",
-  "homepage": "http://github.com/mrmrs/css-lists",
-  "description": "Css module of single purpose classes for lists",
+  "version": "2.0.0",
+  "description": "Functional CSS for lists",
+  "style": "dist/lists.css",
+  "main": "dist/lists.css",
+  "exports": {
+    ".": "./dist/lists.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "lists"
+    "lists",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-lists": {
+  "homepage": "https://github.com/mrmrs/css-lists",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-lists.git"
+    "url": "https://github.com/mrmrs/css-lists.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-lists/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-lists/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
